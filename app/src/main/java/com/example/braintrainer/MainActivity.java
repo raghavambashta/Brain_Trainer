@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     public void start(View view)
     {
         goButton.setVisibility(View.INVISIBLE);
-        playAgain(findViewById(R.id.playAgainButton));
+        playAgain(findViewById(R.id.viewScore));
         gameLayout.setVisibility(0);
     }
 
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFinish()
             {
-                countDownTimer2 = new CountDownTimer(1600,1000) {
+                countDownTimer2 = new CountDownTimer(1200,1000) {
                     @Override
                     public void onTick(long l) {
                         resultTextView.setVisibility(0);
