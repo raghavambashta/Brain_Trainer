@@ -35,8 +35,8 @@
 
         <TextView
             android:id="@+id/viewScore"
-            android:layout_width="315dp"
-            android:layout_height="169dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:background="#3F51B5"
             android:gravity="center"
@@ -187,15 +187,15 @@
             android:padding="5dp"
             android:password="false"
             android:text="0/0"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/playAgainButton"
-            android:layout_width="329dp"
-            android:layout_height="96dp"
+            android:layout_width="408dp"
+            android:layout_height="95dp"
             android:background="#96F12E"
             android:onClick="playAgain"
             android:padding="15dp"
